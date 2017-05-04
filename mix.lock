@@ -1,3 +1,5 @@
 %{"dynamic_compile": {:hex, :dynamic_compile, "1.0.0", "8171b2cb4953ea3ed2ef63f5b26abf677acd0ca32210c2a08a7a8406a743f76b", [:rebar], [], "hexpm"},
+  "earmark": {:hex, :earmark, "1.2.1", "7ad3f203ab84d31832814483c834e006cf88949f061a4b50d7e783147572280f", [:mix], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.15.1", "d5f9d588fd802152516fccfdb96d6073753f77314fcfee892b15b6724ca0d596", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
   "ibrowse": {:hex, :ibrowse, "4.4.0", "2d923325efe0d2cb09b9c6a047b2835a5eda69d8a47ed6ff8bc03628b764e991", [:rebar3], [], "hexpm"},
   "otters": {:hex, :otters, "0.2.8", "4d28d810e3311e9bc845fba20ebbe88cff4ac26320b56a277603dde134f24dc1", [:rebar3], [{:dynamic_compile, "~>1.0.0", [hex: :dynamic_compile, repo: "hexpm", optional: false]}, {:ibrowse, "~>4.4.0", [hex: :ibrowse, repo: "hexpm", optional: false]}], "hexpm"}}
